@@ -12,7 +12,7 @@ export default function App() {
         <Dictionary/>
           </main>
       <footer className="footer">
-        <a href="https://github.com/Kaylaesmith1/shecodes-dictionary-app" target="_blank">Opensourced</a> code by Kayla Smith
+        <a href="https://github.com/Kaylaesmith1/shecodes-dictionary-app" target="_blank" rel="noreferrer">Opensourced</a> code by Kayla Smith
       </footer>
       </div>
     </div>
