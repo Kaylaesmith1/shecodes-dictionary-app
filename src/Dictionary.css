@@ -6,3 +6,16 @@
 .app {
   text-align: center;
 }
+
+h2 {
+  text-transform: uppercase;
+  color: green;
+}
+h3 {
+  font-size: 20px;
+}
+
+b,
+strong {
+  color: #7bc970;
+}
