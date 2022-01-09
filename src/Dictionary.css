@@ -15,6 +15,9 @@ h3 {
   font-size: 20px;
 }
 
-.synonym {
+li {
+  list-style: none;
   color: #7bc970;
+  display: inline;
+  padding: 5px;
 }
