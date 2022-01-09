@@ -1,4 +1,5 @@
 import React from "react";
+import Synonyms from "./Synonyms";
 
 
 //to get the FIRST meaning of a word: console.log(response.data[0].meanings[0].definitions[0].definition); To loop through all defs use 'map'
@@ -12,12 +13,12 @@ export default function Meaning(props) {
       return (
         <div key={index}>
           <p>
-          {definitions.definition}
+          <strong>Definition: </strong>{definitions.definition}
           <br />
-          <em>{definitions.example}</em>
+          <strong>Example: </strong><em>{definitions.example}</em>
           <br />
-          <strong>{definitions.synonyms[0]}</strong>
-          </p>
+<Synonyms synonyms={definitions.synonyms}/>
+</p>
     </div>
       );
       
