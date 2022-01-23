@@ -11,7 +11,7 @@ if (props.definition) {
     {props.definition.phonetics.map(function(phonetic, index) {
       return (
         <div key={index}>
-          <Phonetics phonetic={phonetic} />
+          <Phonetics phonetic={props.definition.phonetics[0]} />
           </div>
       )
     })}
