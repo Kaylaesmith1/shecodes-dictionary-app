@@ -8,13 +8,10 @@ if (props.definition) {
   <div className="Results">
     <h2>{props.definition.word}</h2>
 
-    {props.definition.phonetics.map(function(phonetic, index) {
-      return (
-        <div key={index}>
-          <Phonetics phonetic={props.definition.phonetics[0]} />
+          <div>
+            <Phonetics phonetic={props.definition.phonetics[0]} />
           </div>
-      )
-    })}
+     
 
     {props.definition.meanings.map(function 
     (meaning, index) {
