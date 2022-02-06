@@ -1,23 +1,59 @@
 .footer,
 .dictionary {
   margin: 30px auto;
+  background: orange;
+}
+.dictionary section {
+  background: #daeaf2;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+  margin: 20px;
+}
+.dictionary input {
+  border-radius: 5px;
+  border-color: #476e82;
+  color: #476e82;
+  width: 50%;
+  padding: 10px;
+}
+::placeholder {
+  color: #476e82;
+  font-weight: normal;
 }
 
-.app {
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(51, 151, 64);
+  text-decoration: none;
+}
+a:visited {
+  color: tomato;
+}
+
+.app,
+body {
   text-align: center;
+  background: #faf6ff;
 }
 
-h2 {
-  text-transform: uppercase;
-  color: green;
+.container {
+  background: purple;
+  border-radius: 10px;
+  margin-top: 25px;
 }
+
 h3 {
   font-size: 20px;
 }
 
 li {
   list-style: none;
-  color: #7bc970;
+  color: #749db2;
   display: inline;
   padding: 5px;
+  word-wrap: break-word;
 }
