@@ -1,4 +1,6 @@
-.results h2 {
+.Results h2 {
   text-transform: uppercase;
   color: #476e82;
+  font-weight: bold;
+  font-size: 40px;
 }

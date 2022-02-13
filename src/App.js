@@ -9,7 +9,7 @@ export default function App() {
        Dictionary App
       </header>
       <main className="dictionary">
-        <Dictionary/>
+        <Dictionary defaultKeyword="thunderstorm"/>
           </main>
       <footer className="footer">
         <a href="https://github.com/Kaylaesmith1/shecodes-dictionary-app" target="_blank" rel="noreferrer">Opensourced</a> code by Kayla Smith
