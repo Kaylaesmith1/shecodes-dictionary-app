@@ -1,0 +1,17 @@
+.Meaning {
+  color: #476e82;
+  text-align: left;
+}
+.Meaning .example {
+  color: #749db2;
+  font-style: italic;
+  margin: 10px 0;
+}
+ul {
+  list-style: none;
+  color: #749db2;
+  display: inline;
+  padding: 5px;
+  word-wrap: break-word;
+  display: inline-block;
+}

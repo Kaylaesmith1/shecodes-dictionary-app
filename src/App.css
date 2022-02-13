@@ -6,12 +6,13 @@ body {
 
 .footer a {
   text-decoration: none;
-  color: black;
+  color: #07a0b1;
 }
 .footer a:hover {
-  color: blue;
   font-weight: bold;
+  color: #476e82;
 }
 .footer {
-  color: orange;
+  color: #476e82;
+  margin: 20px;
 }

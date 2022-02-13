@@ -1,6 +1,5 @@
 .dictionary {
   margin: 30px auto;
-  background: lightcoral;
 }
 .dictionary section {
   background: #daeaf2;
@@ -19,22 +18,15 @@
 ::placeholder {
   color: #476e82;
   font-weight: normal;
+  font-size: 16px;
 }
 
 .container {
-  background: #9ec7d3;
+  background: #b6cfd6;
   border-radius: 10px;
   margin-top: 25px;
 }
 
 h3 {
-  font-size: 20px;
-}
-
-li {
-  list-style: none;
-  color: #749db2;
-  display: inline;
-  padding: 5px;
-  word-wrap: break-word;
+  font-size: 30px;
 }
