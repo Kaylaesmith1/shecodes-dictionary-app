@@ -1,0 +1,17 @@
+.app,
+body {
+  text-align: center;
+  background: #faf6ff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  color: blue;
+  font-weight: bold;
+}
+.footer {
+  color: orange;
+}

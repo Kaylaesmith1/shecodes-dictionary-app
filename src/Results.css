@@ -1,6 +1,12 @@
-.Results h2 {
-  text-transform: uppercase;
+.Results h2,
+.App-header {
   color: #476e82;
   font-weight: bold;
   font-size: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.Results h2 {
+  text-transform: uppercase;
 }

@@ -1,7 +1,6 @@
-.footer,
 .dictionary {
   margin: 30px auto;
-  background: orange;
+  background: lightcoral;
 }
 .dictionary section {
   background: #daeaf2;
@@ -22,26 +21,8 @@
   font-weight: normal;
 }
 
-a:link {
-  color: red;
-  text-decoration: none;
-}
-a:hover {
-  color: rgb(51, 151, 64);
-  text-decoration: none;
-}
-a:visited {
-  color: tomato;
-}
-
-.app,
-body {
-  text-align: center;
-  background: #faf6ff;
-}
-
 .container {
-  background: purple;
+  background: #9ec7d3;
   border-radius: 10px;
   margin-top: 25px;
 }

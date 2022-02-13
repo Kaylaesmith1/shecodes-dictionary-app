@@ -1,0 +1,14 @@
+.Phonetics a {
+  border-radius: 20px;
+  border: 2px solid #476e82;
+  padding: 11px;
+  margin: 15px;
+}
+
+.Phonetics .text {
+  margin-left: 15px;
+  font-size: 18px;
+  position: relative;
+  top: -20px;
+  color: #476e82;
+}
