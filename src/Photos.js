@@ -1,4 +1,5 @@
 import React from "react";
+import "./Photos.css";
 
 export default function Photos(props) {
 
@@ -7,10 +8,13 @@ export default function Photos(props) {
     <div className="row">
 
     {props.photos.map(function(photo,index){
+      let copyright = `by ${photo.photographer}`;
 
       return (
       <div className="col-4" key={index}>
-        <img src={photo.src.tiny} />
+        <a href={photo.src.large} target="_blank" rel="noreferrer"> {copyright}
+        <img src={photo.src.tiny} className="image-fluid"/>
+        </a>
         </div>
       );
       
